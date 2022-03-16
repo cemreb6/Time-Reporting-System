@@ -1,0 +1,22 @@
+{
+  "entries ": [
+    {
+      "date ": "2021-12-07 ",
+      "code ": "ARGUS-123 ",
+      "time ": 50,
+      "description ": "description1 "
+    },
+    {
+      "date ": "2021-12-15 ",
+      "code ": "OTHER ",
+      "time ": 2,
+      "description ": "description1 "
+    },
+    {
+      "date ": "2021-12-08 ",
+      "code ": "OTHER ",
+      "time ": 3,
+      "description ": "fff "
+    }
+  ]
+}

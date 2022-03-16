@@ -1,0 +1,34 @@
+{
+  "entries ": [
+      {
+          "date ": "2021-11-07 ",
+          "code ": "ARGUS-123 ",
+          "time ": 45,
+          "description ": "data import "
+      },
+      {
+          "date ": "2021-11-07 ",
+          "code ": "OTHER ",
+          "time ": 120,
+          "description ": "picie kawy "
+      },
+      {
+      "date ": "2021-11-08 ",
+      "code ": "ARGUS-123 ",
+      "time ": 45,
+      "description ": "kompilacja "
+      },
+      {
+          "date ": "2021-11-08 ",
+          "code ": "OTHER ",
+          "time ": 120,
+          "description ": "office arrangement "
+      },
+      {
+          "date ": "2021-11-12 ",
+          "code ": "ARGUS-123 ",
+          "time ": 45,
+          "description ": "project meeting "
+      }
+  ]
+}

@@ -1,0 +1,175 @@
+@model TRS2.Models.CurrentDayActivityModel;
+<html>
+    <head>
+
+        <style>
+            .box{
+                height: max-content;
+                width: fit-content;
+                margin: .5rem;
+                justify-content: space-between;
+                text-align: center;
+                display:grid;
+                grid-template-columns: max-content max-content;
+                grid-gap:5px;
+            }
+            .box label       { text-align:left; }
+            box label:after { content: ":"; }          
+           
+            .flex-container{
+                display:flex;
+                width: 100%;
+                border-style: groove;
+                border-color: whitesmoke;
+                flex-direction: column;
+                justify-content: space-between;
+            }
+            .flex-container >div{
+                margin: auto;
+                padding: 20px;
+            }
+            .h3{
+                margin: auto;
+                text-align: center;
+            }
+            .label
+            {
+               display: inline-block;
+               width: 140px;
+               text-align: right;
+               justify-content: space-between;
+               
+            }
+            .button {
+                -webkit-border-radius: 5px;
+                -moz-border-radius: 5px;
+                border-radius: 5px;
+                border: 1px solid gray;
+                padding:0 3px 0 3px;
+                display:inline-block;
+                text-decoration:none;
+                background: #0d6efd;
+                color: white;
+                cursor:pointer;
+                font:23px sans-serif;
+            }
+            .button:hover { 
+                text-decoration:none; 
+                color: blue; 
+                cursor:pointer;
+                border:1px solid ;
+            }
+
+        </style>
+    </head>
+    
+    
+    <body>
+        <div class="flex-container">
+            
+                @using (Html.BeginForm("AddActivity", "Home", FormMethod.Get)){
+                    <div class="flex-container">
+                    <form>
+                    <div class="box">
+                        <h3>Add New Activity</h3>
+                        <br>
+                        <tr>
+                            <label>CODE:</label>
+                            <input type="text" name="code" required="required">
+                        </tr>
+                        
+                        <tr>
+                            <label>MANAGER:</label>  
+                            <input type="text" name="manager" required="required">
+                        </tr>
+
+                        <tr>
+                            <label>NAME:</label>
+                            <input type="text" name="name" required="required">
+                        </tr>
+                        <tr>
+                        <label>BUDGET:</label>
+                        <input type="number" name="budget" required="required">
+                        </tr>
+                        <br>
+                        <button type="submit" class="button">ADD</button>      
+                        <br>
+                        @TempData["addmsg"]     
+                    </div>
+                </form>
+            </div>
+                }
+            @using (Html.BeginForm("AddReport", "Home", FormMethod.Get)){
+            <form>  
+            <div class="flex-container">
+                <h3>ASSIGN ACTIVITY TO PROJECT</h3>
+                <div class="flex-container">
+                    <label for="selectActivity">SELECT PROJECT</label>
+                    <select name="projectCode">
+                        @foreach (var code in Model.activityList)
+                        {
+                            <option>@code.code</option>
+                        }
+                    </select>
+                    <br>
+                    <div class="flex-container">
+                        <label for="username">USERNAME</label>
+                        <input type="text" name="username" required="required">
+
+
+                        <label for="selectDate">SELECT DATE</label>
+                        <input type="date" name="selectDate" required="required">
+
+                        <label>ADD TIME</label>
+                        <input type="number" name="time" min="0" required="required">
+
+                        <label>ADD DESCRIPTION</label>
+                        <input type="text" name="description" required="required">
+
+                        <br>
+                        <button type="submit" class="button">ADD</button>
+                    </div>
+                </div>     
+            </div>
+            </form> 
+            }
+            <div class="flex-container">
+                <h3>EDIT ACTIVITY</h3>
+                @using (Html.BeginForm("EditActivity", "Home", FormMethod.Get)){
+                    <form>
+                        <div class="flex-container">
+                            <label for="edit">SELECT ACTIVITY TO EDIT</label>
+                            <br>
+                            <select name="edittedActivity">
+                            @foreach (var code in Model.activityList)
+                            {
+                                <option>@code.code</option>
+                            }
+                            </select>
+                            <br>
+                            <tr>
+                                <label>MANAGER:</label>  
+                                <input type="text" name="editmanager" >
+                                <button type="submit" class="button">EDIT</button>
+                            </tr>
+
+                            <tr >
+                                <label>NAME:</label>  
+                                <input type="text" name="editname" >
+                                <button type="submit" class="button">EDIT</button>
+                            </tr>
+                           
+                            <tr >
+                                <label>BUDGET:</label>  
+                                <input type="number" name="editbudget" >
+                                <button type="submit" class="button">EDIT</button>
+                            </tr>
+                
+                            </div>
+                    </form>
+                }
+
+            </div>
+        </div>
+    </body>
+</html>

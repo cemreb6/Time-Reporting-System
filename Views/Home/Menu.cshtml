@@ -1,0 +1,66 @@
+@model TRS2.Models.ActivityRepModel
+
+@{
+    ViewData["Title"] = "MENU";
+}
+
+@using (Html.BeginForm("Menu", "Home", FormMethod.Get)){
+<div>
+  
+    <h2>MONTHLY REPORT</h2>
+    <form>
+    <div class="box-shadow">
+        <h3>SELECT REPORT DATE</h3>
+        <input type="month" id="selectDate" name ="selectDate" min "2021-01" value=2021-12>
+        <br><br>
+        <button type="submit" class="button">DISPLAY</button>
+    </div>
+    </form>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>CODE</th>
+                <th>TOTAL TIME SPEND</th>
+            </tr>
+        </thead>
+        <tbody> 
+            @if(Model.Entries!=null){
+
+                List<string> codeList=new List<string>();
+                @foreach (var item in Model.Entries)
+                {
+                    if(!codeList.Contains(item.code)){
+                        codeList.Add(item.code);
+                    }
+                }
+                int[] timeList=new int[codeList.Count];
+                for(int i=0;i<codeList.Count;i++){
+                    timeList[i]=0;
+                    foreach (var entry in Model.Entries)
+                    {
+                        if(entry.code.Contains(codeList.ElementAt(i))){
+                            timeList[i]+=entry.time;
+                        }
+                    }
+                }
+                for(int i=0;i<codeList.Count;i++)
+                        {
+                            <tr>
+                            <td>@codeList.ElementAt(i)</td>
+                            <td>@timeList[i]</td>
+                            </tr>
+                        }  
+            }
+            else{
+                <tr>
+                    <td>-</td>
+                    <td>-</td>
+                </tr>
+            }
+                                      
+        </tbody>
+    </table>
+</div>
+}
+
+

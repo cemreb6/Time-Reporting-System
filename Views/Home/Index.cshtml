@@ -1,0 +1,168 @@
+﻿@model TRS2.Models.ActivityRepModel
+
+@{
+    ViewData["Title"] = "MAIN SCREEN";
+}
+
+<html>
+    <head>
+<title>TIME REPORTING SYSTEM</title>
+<meta charset="utf-8">
+<meta name="viewport"
+content="width=device-width,initial-scale=1">
+<style>
+
+    .content{
+        text-align: center;
+        margin: auto;
+    }
+    .box-shadow{
+        height: max-content;
+        width: 100%;
+        text-align: center;
+        border-style:groove;
+        border-color: whitesmoke;
+        margin: auto;
+    }
+    .optionsBox{
+        height: max-content;
+        width:100%;
+        text-align: center;
+        border-style:groove;
+        border-color: whitesmoke;
+        margin: auto;
+    }
+     .detailsBox{
+        height: max-content;
+        width:100%;
+        text-align: center;
+        border-style:groove;
+        border-color: whitesmoke;
+        margin: auto;
+    }
+
+    .button {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding:0 3px 0 3px;
+    display:inline-block;
+    text-decoration:none;
+    background: #0d6efd;
+    color: white;
+    cursor:pointer;
+    font:23px sans-serif;
+}
+
+.button:hover { 
+    text-decoration:none; 
+    color: blue; 
+    cursor:pointer;
+    border:1px solid ;
+}
+    </style>
+    </head>
+
+    <body>
+        
+        <div class="content">
+            @using (Html.BeginForm("Index", "Home", FormMethod.Get)){
+            <form>
+            <h2>Time Reporting System</h2>
+            
+            <div class="box-shadow">
+                <h4>Select New Date</h4>
+                <br>
+                <input type ="date"  name="reportDate" required  >
+                <br><br>
+                <button type="submit" class="button">Select Date</button>
+                <br><br>
+                
+                <h3>Current Date Activities</h3>
+                <div>
+                    @TempData["date"]
+                    <br>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>CODE</th>
+                            <th>TIME</th>
+                            <th>DESCRIPTION</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @if(Model.Entries!=null){
+                            @foreach (var activity in Model.Entries)
+                            {
+                                <tr>
+                                    <td>@activity.code</td>
+                                    <td>@activity.time</td>
+                                    <td>@activity.description</td>
+                                </tr>
+                            }   
+                        }
+                    </tbody>
+                </table>
+            </div>
+            </form>
+            }
+            <h4>Total Time Spend</h4>
+            @if(Model.Entries !=null){
+                int Totaltime=0;
+                @foreach (var item in Model.Entries)
+                {
+                    Totaltime+=item.time;
+                }
+                <tr>
+                    <td>@Totaltime</td>
+                </tr> 
+            }
+            
+               
+            <br><br>
+            <div class="content">
+                    <h3>DETAILS OF THE CURRENT DAY ACTIVITIES</h3>
+                    <table class="table">
+                    <thead>
+                        <tr>
+                            <th>CODE</th>
+                            <th>MANAGER</th>
+                            <th>NAME</th>
+                            <th>BUDGET</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var activity in Model.Entries)
+                        {
+                            foreach (var detail in ViewBag.activitiesDetails)
+                            {
+                                if(activity.code.Contains(detail.code)){
+                                    <tr>
+                                        <td>@detail.code</td>
+                                        <td>@detail.manager</td>
+                                        <td>@detail.name</td>
+                                        <td>@detail.budget</td>
+                                    </tr>
+                                }
+                            }
+                        }
+                    </tbody>
+                </table>
+                
+                
+                
+            </div>
+            <br>
+            @using (Html.BeginForm("EntryDialog", "Home", FormMethod.Post)){
+                <div class="optionsBox">
+                    <h3>Options</h3>
+                    <button type="submit" class="button" asp-area="" asp-controller="Home" asp-action="EntryDialog">Add Activity</button>
+                    <button type="submit" class="button" asp-area="" asp-controller="Home" asp-action="EntryDialog">Edit Activity</button>
+                    <button type="submit" class="button" asp-area="" asp-controller="Home" asp-action="Delete">Delete Activity</button>  
+                </div>
+            }    
+        </div>
+    </body>
+</html>
+

@@ -1,0 +1,64 @@
+C:\Users\Lenovo\Desktop\3\Graphical User Interfaces\TRS2\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Lenovo\Desktop\3\Graphical User Interfaces\TRS2\bin\Debug\net6.0\appsettings.json
+C:\Users\Lenovo\Desktop\3\Graphical User Interfaces\TRS2\bin\Debug\net6.0\TRS2.staticwebassets.runtime.json
+C:\Users\Lenovo\Desktop\3\Graphical User Interfaces\TRS2\bin\Debug\net6.0\TRS2.exe
+C:\Users\Lenovo\Desktop\3\Graphical User Interfaces\TRS2\bin\Debug\net6.0\TRS2.deps.json
+C:\Users\Lenovo\Desktop\3\Graphical User Interfaces\TRS2\bin\Debug\net6.0\TRS2.runtimeconfig.json
+C:\Users\Lenovo\Desktop\3\Graphical User Interfaces\TRS2\bin\Debug\net6.0\TRS2.dll
+C:\Users\Lenovo\Desktop\3\Graphical User Interfaces\TRS2\bin\Debug\net6.0\ref\TRS2.dll
+C:\Users\Lenovo\Desktop\3\Graphical User Interfaces\TRS2\bin\Debug\net6.0\TRS2.pdb
+C:\Users\Lenovo\Desktop\3\Graphical User Interfaces\TRS2\obj\Debug\net6.0\TRS2.csproj.AssemblyReference.cache
+C:\Users\Lenovo\Desktop\3\Graphical User Interfaces\TRS2\obj\Debug\net6.0\TRS2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lenovo\Desktop\3\Graphical User Interfaces\TRS2\obj\Debug\net6.0\TRS2.AssemblyInfoInputs.cache
+C:\Users\Lenovo\Desktop\3\Graphical User Interfaces\TRS2\obj\Debug\net6.0\TRS2.AssemblyInfo.cs
+C:\Users\Lenovo\Desktop\3\Graphical User Interfaces\TRS2\obj\Debug\net6.0\TRS2.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\3\Graphical User Interfaces\TRS2\obj\Debug\net6.0\TRS2.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Lenovo\Desktop\3\Graphical User Interfaces\TRS2\obj\Debug\net6.0\TRS2.RazorAssemblyInfo.cache
+C:\Users\Lenovo\Desktop\3\Graphical User Interfaces\TRS2\obj\Debug\net6.0\TRS2.RazorAssemblyInfo.cs
+C:\Users\Lenovo\Desktop\3\Graphical User Interfaces\TRS2\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Lenovo\Desktop\3\Graphical User Interfaces\TRS2\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Lenovo\Desktop\3\Graphical User Interfaces\TRS2\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Lenovo\Desktop\3\Graphical User Interfaces\TRS2\obj\Debug\net6.0\scopedcss\bundle\TRS2.styles.css
+C:\Users\Lenovo\Desktop\3\Graphical User Interfaces\TRS2\obj\Debug\net6.0\scopedcss\projectbundle\TRS2.bundle.scp.css
+C:\Users\Lenovo\Desktop\3\Graphical User Interfaces\TRS2\obj\Debug\net6.0\TRS2.dll
+C:\Users\Lenovo\Desktop\3\Graphical User Interfaces\TRS2\obj\Debug\net6.0\ref\TRS2.dll
+C:\Users\Lenovo\Desktop\3\Graphical User Interfaces\TRS2\obj\Debug\net6.0\TRS2.pdb
+C:\Users\Lenovo\Desktop\3\Graphical User Interfaces\TRS2\obj\Debug\net6.0\TRS2.genruntimeconfig.cache
+C:\Users\Lenovo\Desktop\3\Graphical User Interfaces\TRS2\bin\Debug\net6.0\activity.json
+C:\Users\Lenovo\Desktop\3\Graphical User Interfaces\TRS2\bin\Debug\net6.0\kowalski-2021-11.json
+C:\Users\Lenovo\Desktop\3\Graphical User Interfaces\TRS2\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\Lenovo\Desktop\3\Graphical User Interfaces\TRS2\obj\Debug\net6.0\TRS2.csproj.CopyComplete
+C:\Users\Lenovo\Desktop\3\Graphical User Interfaces\TRS2\obj\Debug\net6.0\scopedcss\Views\Home\Menu.cshtml.rz.scp.css
+C:\Users\Lenovo\Desktop\3\Graphical User Interfaces\TRS2\bin\Debug\net6.0\cemre-2021-12.json
+C:\Users\Lenovo\Desktop\3\Graphical User Interfaces\TRS2\bin\Debug\net6.0\cemre-2021-11.json
+C:\Users\Lenovo\Desktop\3\GraphicalUserInterfaces\TRS2\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Lenovo\Desktop\3\GraphicalUserInterfaces\TRS2\bin\Debug\net6.0\appsettings.json
+C:\Users\Lenovo\Desktop\3\GraphicalUserInterfaces\TRS2\bin\Debug\net6.0\kowalski-2021-11.json
+C:\Users\Lenovo\Desktop\3\GraphicalUserInterfaces\TRS2\bin\Debug\net6.0\activity.json
+C:\Users\Lenovo\Desktop\3\GraphicalUserInterfaces\TRS2\bin\Debug\net6.0\TRS2.staticwebassets.runtime.json
+C:\Users\Lenovo\Desktop\3\GraphicalUserInterfaces\TRS2\bin\Debug\net6.0\TRS2.exe
+C:\Users\Lenovo\Desktop\3\GraphicalUserInterfaces\TRS2\bin\Debug\net6.0\TRS2.deps.json
+C:\Users\Lenovo\Desktop\3\GraphicalUserInterfaces\TRS2\bin\Debug\net6.0\TRS2.runtimeconfig.json
+C:\Users\Lenovo\Desktop\3\GraphicalUserInterfaces\TRS2\bin\Debug\net6.0\TRS2.dll
+C:\Users\Lenovo\Desktop\3\GraphicalUserInterfaces\TRS2\bin\Debug\net6.0\ref\TRS2.dll
+C:\Users\Lenovo\Desktop\3\GraphicalUserInterfaces\TRS2\bin\Debug\net6.0\TRS2.pdb
+C:\Users\Lenovo\Desktop\3\GraphicalUserInterfaces\TRS2\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\Lenovo\Desktop\3\GraphicalUserInterfaces\TRS2\obj\Debug\net6.0\TRS2.csproj.AssemblyReference.cache
+C:\Users\Lenovo\Desktop\3\GraphicalUserInterfaces\TRS2\obj\Debug\net6.0\TRS2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lenovo\Desktop\3\GraphicalUserInterfaces\TRS2\obj\Debug\net6.0\TRS2.AssemblyInfoInputs.cache
+C:\Users\Lenovo\Desktop\3\GraphicalUserInterfaces\TRS2\obj\Debug\net6.0\TRS2.AssemblyInfo.cs
+C:\Users\Lenovo\Desktop\3\GraphicalUserInterfaces\TRS2\obj\Debug\net6.0\TRS2.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\3\GraphicalUserInterfaces\TRS2\obj\Debug\net6.0\TRS2.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Lenovo\Desktop\3\GraphicalUserInterfaces\TRS2\obj\Debug\net6.0\TRS2.RazorAssemblyInfo.cache
+C:\Users\Lenovo\Desktop\3\GraphicalUserInterfaces\TRS2\obj\Debug\net6.0\TRS2.RazorAssemblyInfo.cs
+C:\Users\Lenovo\Desktop\3\GraphicalUserInterfaces\TRS2\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Lenovo\Desktop\3\GraphicalUserInterfaces\TRS2\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Lenovo\Desktop\3\GraphicalUserInterfaces\TRS2\obj\Debug\net6.0\scopedcss\Views\Home\Menu.cshtml.rz.scp.css
+C:\Users\Lenovo\Desktop\3\GraphicalUserInterfaces\TRS2\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Lenovo\Desktop\3\GraphicalUserInterfaces\TRS2\obj\Debug\net6.0\scopedcss\bundle\TRS2.styles.css
+C:\Users\Lenovo\Desktop\3\GraphicalUserInterfaces\TRS2\obj\Debug\net6.0\scopedcss\projectbundle\TRS2.bundle.scp.css
+C:\Users\Lenovo\Desktop\3\GraphicalUserInterfaces\TRS2\obj\Debug\net6.0\TRS2.csproj.CopyComplete
+C:\Users\Lenovo\Desktop\3\GraphicalUserInterfaces\TRS2\obj\Debug\net6.0\TRS2.dll
+C:\Users\Lenovo\Desktop\3\GraphicalUserInterfaces\TRS2\obj\Debug\net6.0\ref\TRS2.dll
+C:\Users\Lenovo\Desktop\3\GraphicalUserInterfaces\TRS2\obj\Debug\net6.0\TRS2.pdb
+C:\Users\Lenovo\Desktop\3\GraphicalUserInterfaces\TRS2\obj\Debug\net6.0\TRS2.genruntimeconfig.cache

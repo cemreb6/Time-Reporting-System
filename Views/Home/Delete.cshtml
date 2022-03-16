@@ -1,0 +1,61 @@
+@model TRS2.Models.CurrentDayActivityModel;
+<html>
+    <head>
+        <h1>DELETE ACTIVITY</h1>
+        <style>
+            .box1{
+                height: max-content;
+                width: 100%;
+                text-align: center;
+                border-style:groove;
+                border-color: whitesmoke;
+                margin: auto;
+            }
+            .button {
+                -webkit-border-radius: 5px;
+                -moz-border-radius: 5px;
+                border-radius: 5px;
+                border: 1px solid gray;
+                padding:0 3px 0 3px;
+                display:inline-block;
+                text-decoration:none;
+                background: #0d6efd;
+                color: white;
+                cursor:pointer;
+                font:23px sans-serif;
+            }
+
+            .button:hover { 
+                text-decoration:none; 
+                color: blue; 
+                cursor:pointer;
+                border:1px solid ;
+            }
+        </style>
+    </head>
+    <body>
+        @using (Html.BeginForm("DeleteAction", "Home", FormMethod.Get))
+        {
+            <div class="box1">
+                <form>
+                    <label>ENTER CODE OF THE ACTIVITY:</label>
+                    <input type="text" name="code" required="required">  
+                <br><br>
+                <button type="submit" class="button" asp-area="" asp-controller="Home" asp-action="DeleteAction" asp-route-id="deletedCode">
+                    DELETE
+                </button>
+                </form>
+                <br>
+                @TempData["msg"]
+            </div>
+        }
+       
+    </body>
+
+</html>
+
+
+
+
+
+

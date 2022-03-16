@@ -1,0 +1,110 @@
+/* _content/TRS2/Views/Home/Menu.cshtml.rz.scp.css */
+.box-shadow[b-chqgot4q1l]{
+    height: fit-content;
+    width: fit-content;
+    text-align: center;
+    border-style:groove;
+    border-color: cornflowerblue;
+}
+
+.text-center[b-chqgot4q1l]{
+    height: 20px;
+    width: 50px;
+    text-align: center;
+    margin: auto;
+}
+
+#date[b-chqgot4q1l]{
+    height: 20px;
+    width: 50px; 
+    text-align: center;
+    margin: auto;
+}
+
+#textarea[b-chqgot4q1l]{
+    height: fit-content;
+    width: fit-content;
+    text-align: center;
+}
+.box-shadow[b-chqgot4q1l]{
+    height:max-content;
+    width:100%;
+    text-align: center;
+    border-style:groove;
+    border-color: whitesmoke;
+    margin:auto;
+}
+.month[b-chqgot4q1l]{
+    margin: auto; 
+}
+
+.button[b-chqgot4q1l] {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding:0 3px 0 3px;
+    display:inline-block;
+    text-decoration:none;
+    background: #0d6efd;
+    color: white;
+    cursor:pointer;
+    font:23px sans-serif;
+}
+
+.button:hover[b-chqgot4q1l] { 
+    text-decoration:none; 
+    color: blue; 
+    cursor:pointer;
+    border:1px solid ;
+}
+/* _content/TRS2/Views/Shared/_Layout.cshtml.rz.scp.css */
+/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand[b-5yspanqsgh] {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+  position: absolute;
+}
+
+a[b-5yspanqsgh] {
+  color: #0077cc;
+}
+
+.btn-primary[b-5yspanqsgh] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active[b-5yspanqsgh], .nav-pills .show > .nav-link[b-5yspanqsgh] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.border-top[b-5yspanqsgh] {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom[b-5yspanqsgh] {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow[b-5yspanqsgh] {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy[b-5yspanqsgh] {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+.footer[b-5yspanqsgh] {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px;
+}
